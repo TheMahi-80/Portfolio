@@ -1,0 +1,85 @@
+body {
+
+    margin: 0;
+    background: #0f172a;
+    color: #e2e8f0;
+    font-family: Poppins;
+
+}
+
+header {
+
+    text-align: center;
+    padding: 40px;
+
+    background: #020617;
+
+}
+
+h1 {
+
+    font-family: Orbitron;
+    font-size: 40px;
+
+}
+
+.tagline {
+
+    color: #38bdf8;
+
+}
+
+nav a {
+
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+
+}
+
+section {
+
+    padding: 60px 15%;
+
+}
+
+h2 {
+
+    color: #38bdf8;
+    margin-bottom: 20px;
+
+}
+
+.grid {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+
+}
+
+.project {
+
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+
+    transition: 0.3s;
+
+}
+
+.project:hover {
+
+    transform: translateY(-5px);
+    background: #334155;
+
+}
+
+footer {
+
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+
+}
